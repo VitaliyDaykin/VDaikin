@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Lato;
+    src: url(../font/lato-light.woff2) format(woff2), url(../font/lato-light.woff) format(woff);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Miso;
+    src: url(../font/miso-lig.woff2) format(woff2), url(../font/miso-lig.woff) format(woff);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Miso;
+    src: url(../font/miso-bol.woff2) format(woff2), url(../font/miso-bol.woff) format(woff);
+    font-style: normal;
+    font-weight: bold;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: MISO;
+}
+.fon {
+    background-color: #fdde7e;
+
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.kart,
+.kart1 {
+    border: 1px solid #ffffff;
+    width: calc(33.333% - 30px);
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.kart {
+    margin: 30px;
+    height: 441px;
+}
+.kart1 {
+    height: 500px;
+}
+
+h2 {
+    font-size: 70px;
+    color: #02995b;
+    font-family: Miso;
+}
+h3 {
+    font-size: 56px;
+}
+p {
+    font-size: 20px;
+}
