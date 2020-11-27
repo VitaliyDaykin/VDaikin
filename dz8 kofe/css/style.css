@@ -1,18 +1,18 @@
 @font-face {
     font-family: Lato;
-    src: url(../font/lato-light.woff2) format(woff2), url(../font/lato-light.woff) format(woff);
+    src: url(../font/lato-light.woff2) format("woff2"), url(../font/lato-light.woff) format("woff");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: Miso;
-    src: url(../font/miso-lig.woff2) format(woff2), url(../font/miso-lig.woff) format(woff);
+    src: url(../font/miso-lig.woff2) format("woff2"), url(../font/miso-lig.woff) format("woff");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: Miso;
-    src: url(../font/miso-bol.woff2) format(woff2), url(../font/miso-bol.woff) format(woff);
+    src: url(../font/miso-bol.woff2) format("woff2"), url(../font/miso-bol.woff) format("woff");
     font-style: normal;
     font-weight: bold;
 }
@@ -21,17 +21,17 @@
     padding: 0;
 }
 body {
-    font-family: MISO;
+    font-family: Miso;
 }
 .fon {
     background-color: #fdde7e;
-
     max-width: 1200px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .kart,
 .kart1 {
@@ -39,6 +39,8 @@ body {
     width: calc(33.333% - 30px);
     background-color: #ffffff;
     text-align: center;
+    box-shadow: 0 1px 2px 1px #cab265;
+    border-radius: 4px;
 }
 
 .kart {
@@ -48,15 +50,33 @@ body {
 .kart1 {
     height: 500px;
 }
+.kart h3 {
+    margin-top: 30px;
+}
+div {
+    box-sizing: border-box;
+    margin-left: 15px;
+}
 
 h2 {
     font-size: 70px;
     color: #02995b;
-    font-family: Miso;
+    padding-top: 52px;
 }
 h3 {
     font-size: 56px;
+    font-family: Miso;
+    font-weight: 400;
+    margin-top: 23px;
+    color: #333333;
+    font-weight: normal;
+    padding-bottom: 17px;
 }
+
 p {
+    font-family: Lato;
     font-size: 20px;
+    color: #4e4e4e;
+    line-height: 1.4;
+    letter-spacing: 1px;
 }
