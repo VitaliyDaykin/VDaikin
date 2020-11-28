@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "HansKendrick-Regula";
+    src: url(../font/HansKendrick-Regular.woff2) format("woff2"), url(../font/HansKendrick-Regular.woff2) format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    font-family: "HansKendrick-Regula";
+    font-size: 22px;
+    /*background-color: #e2e7ec;*/
+}
+.artical-list {
+    background-color: #e2e7ec;
+    display: flex;
+    width: 1600px;
+    flex-wrap: wrap;
+    padding: 80px 230px;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.wolksvagen {
+    background-image: url(../imge/Layer_8.png);
+    box-sizing: border-box;
+    background-size: auto;
+    height: 540px;
+    position: relative;
+}
+.wolksvagen > div {
+    position: absolute;
+    bottom: 40px;
+}
+.juk {
+    width: 740px;
+    height: 540px;
+    padding: 10px;
+}
+.blog {
+    width: 360px;
+
+    padding: 10px;
+}
+
+.blog > div {
+    background-color: #ffffff;
+    position: relative;
+    height: 540px;
+}
+p,
+h2 {
+    padding-left: 25px;
+    letter-spacing: 0.5px;
+}
+h2 {
+    line-height: 30px;
+    font-size: 22px;
+    text-align: left;
+    color: #1d1d1d;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+p {
+    color: #818181;
+    text-align: left;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.avtor {
+    bottom: 25px;
+    position: absolute;
+    padding-left: 25px;
+}
