@@ -8,77 +8,75 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: "HansKendrick-Regula";
-    font-size: 22px;
-    /*background-color: #e2e7ec;*/
 }
-.artical-list {
+
+.blog-list {
+    list-style: none;
+    max-width: 1600;
+    padding: 90px 240px;
     background-color: #e2e7ec;
     display: flex;
-    width: 1600px;
     flex-wrap: wrap;
-    padding: 80px 230px;
-    align-content: center;
-    box-sizing: border-box;
+}
+.list {
+    width: calc(66.6%-20px);
+    position: relative;
+    display: inline-block;
+}
+.list::after {
+    content: "";
+    display: block;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    background-image: linear-gradient(0deg, black 30%, transparent 100%);
+    opacity: 0.6;
 }
 
-.wolksvagen {
-    background-image: url(../imge/Layer_8.png);
-    /* box-sizing: border-box;
-    background-size: auto;*/
-    height: 540px;
-    position: relative;
+.lists {
+    width: calc(33.3%-20px);
 }
-.wolksvagen::after {
-    background-image: linear-gradient(#000, #fff);
-    position: absolute;
-}
-.wolksvagen > div {
-    position: absolute;
-    bottom: 40px;
-}
-.juk {
-    width: 740px;
-    height: 540px;
+
+.list,
+.lists {
     padding: 10px;
 }
 
-.blog {
-    width: 360px;
-
-    padding: 10px;
-}
-
-.blog > div {
-    background-color: #ffffff;
-    position: relative;
-    height: 540px;
-}
-p,
-h2 {
-    padding-left: 25px;
-    letter-spacing: 0.5px;
-}
-h2 {
-    line-height: 30px;
+.text {
+    padding: 0;
+    position: absolute;
+    top: 411px;
+    color: white;
+    padding-left: 43px;
+    padding-right: 40px;
     font-size: 22px;
-    text-align: left;
-    color: #1d1d1d;
-    font-style: normal;
-    text-transform: uppercase;
-    padding-top: 15px;
+    letter-spacing: 0.75px;
+    font-weight: 400;
 }
-p {
-    color: #818181;
-    text-align: left;
+.content {
+    background-color: #ffffff;
+    height: 540px;
+    background-image: url(../imge/Layer_33.png);
+    background-repeat: no-repeat;
+    background-position: 28px 462px;
+}
+.text p {
+    opacity: 0.6;
     font-size: 13px;
+    padding-left: 0;
+    font-weight: 500;
+    letter-spacing: 0.33px;
     text-transform: uppercase;
-    padding-top: 20px;
 }
-.avtor {
-    bottom: 25px;
-    position: absolute;
-    padding-left: 25px;
+
+.content p {
+    font-size: 13px;
+
+    font-weight: 500;
+    letter-spacing: 0.33px;
+    text-transform: uppercase;
 }
