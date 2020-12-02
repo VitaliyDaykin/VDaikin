@@ -1,0 +1,6 @@
+@font-face {
+    font-family: Miso;
+    src: url(../font/miso-lig.woff2) format("woff2"), url(../font/miso-lig.woff) format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
