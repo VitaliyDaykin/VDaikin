@@ -4,7 +4,7 @@
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
 }
@@ -92,6 +92,9 @@
 .col-1 {
     max-width: 8.333333%;
     flex-basis: 8.333333%;
+}
+.offset-12 {
+    margin-left: 100%;
 }
 
 .offset-11 {
